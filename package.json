@@ -1,0 +1,43 @@
+{
+  "name": "ts-enum-helpers",
+  "author": "Nadav Cohen",
+  "version": "1.0.0",
+  "description": "A small collection of utility methods to help parse typescript enums into objects, keys and values",
+  "homepage": "https://github.com/NadavCohen/ts-enum-helpers#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "publish-lib": "yarn build && npm publish",
+    "publish-beta": "yarn build && npm publish --tag beta",
+    "publish-dryrun": "yarn build && npm publish --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NadavCohen/ts-enum-helpers.git"
+  },
+  "keywords": [
+    "typescript",
+    "ts",
+    "enum",
+    "enumerate",
+    "util",
+    "utility",
+    "helper",
+    "extractor",
+    "extract",
+    "mapper",
+    "map"
+  ],
+  "bugs": {
+    "url": "https://github.com/NadavCohen/ts-enum-helpers/issues"
+  },
+  "devDependencies": {
+    "typescript": "^2.9.1"
+  },
+  "dependencies": {}
+}
